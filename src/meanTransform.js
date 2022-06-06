@@ -1,5 +1,5 @@
-import { standardDeviation } from './std'
-import { mean } from './mean'
+import { standardDeviation } from './std.js'
+import { mean } from './mean.js'
 
 const meanTransform = (sample, refercence) => {
   const stdSample = standardDeviation(sample)
