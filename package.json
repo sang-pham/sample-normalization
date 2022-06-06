@@ -12,7 +12,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && chmod +x ./fixup && ./fixup"
+    "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && chmod +x ./fixup && ./fixup",
+    "ver": "./scripts/version.sh"
   },
   "keywords": [],
   "author": "",
