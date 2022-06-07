@@ -1,6 +1,6 @@
 import { percentile } from './percentile.js'
 
-const percentileTransfrom = (sample, reference, lowPercentile = 5, highPercentile = 95) => {
+const twoPointTransform = (sample, reference, lowPercentile = 5, highPercentile = 95) => {
   const lX = percentile(sample, lowPercentile)
   const uX = percentile(sample, highPercentile)
   const lY = percentile(reference, lowPercentile)
@@ -11,4 +11,4 @@ const percentileTransfrom = (sample, reference, lowPercentile = 5, highPercentil
   })
 }
 
-export { percentileTransfrom }
+export { twoPointTransform }

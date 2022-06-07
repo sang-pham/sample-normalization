@@ -1,6 +1,6 @@
 export * from './mean.js'
 export * from './meanTransform.js'
 export * from './percentile.js'
-export * from './percentileTransform.js'
+export * from './twoPointTransform.js'
 export * from './std.js'
 export * from './onePointTransform.js'

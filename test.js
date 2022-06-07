@@ -1,6 +1,6 @@
 import { standardDeviation } from './src/std.js'
 import { percentile } from './src/percentile.js'
-import { percentileTransfrom } from './src/percentileTransform.js'
+import { twoPointTransform } from './src/twoPointTransform.js'
 import { meanTransform } from './src/meanTransform.js'
 import { onePointTransform } from './src/onePointTransform.js'
 import { mean } from './src/mean.js'
